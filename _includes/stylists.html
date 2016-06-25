@@ -18,8 +18,9 @@
 								<!--<div class="position">Web Developer</div>-->
 								<p> {{ stylist.mini-bio }} </p>
 								<a data-toggle="modal" data-target="#aboutModal{{forloop.index}}"> Learn More </a>
-								
-								<a href="cloudcannon:collections/_stylists/{{stylist.name | | downcase}}.md">Edit {{stylist.name}}</a>
+								<div>
+    								<a href="cloudcannon:collections/_stylists/{{stylist.name | | downcase}}.md" class = "editor-link">Edit {{stylist.name}}</a>
+								</div>
 							
                                 
 							</div>
