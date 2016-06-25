@@ -61,6 +61,13 @@ h1, h2, h3, h4, h5, h6 {
   background: #f9f6f0;
 }
 
+.editor-link {
+  display: none;
+}
+
+.cms-editor-active .editor-link {
+  display: block;
+}
 
 #background{
     height:800px;
