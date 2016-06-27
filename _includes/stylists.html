@@ -9,7 +9,7 @@
 					    
 				  {% for stylist in site.stylists %}
 				  
-				  {% assign rowfinder = forloop.index | modulo: 4 %}
+				  {% assign rowfinder = forloop.index | modulo: 3 %}
 				  
 				  {{rowfinder}}
 						<div class="col-md-4 text-center to-animate {% if forloop.index == 4 %}col-md-offset-2{% endif %}">
