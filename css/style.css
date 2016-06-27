@@ -927,9 +927,8 @@ address{
 }
 
 
-#footer a{
-    color:white;
-    border-bottom: 1px dotted white;
+#footer .woolly{
+    height:75px;
 }
 #footer .copyright {
   margin-bottom: 0px;
