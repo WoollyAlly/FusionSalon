@@ -338,6 +338,7 @@ address{
 #map{
     height:230px;
     margin-top: 10px;
+        border: white 2px solid;
 }
 .tagline{
      color: #6173f4;
