@@ -1,5 +1,5 @@
 ---
-name: Angie
+name: Angela
 phone: 630.290.8674
 email:
 profile_image_path: images/stylists/headshots-angie.jpg
