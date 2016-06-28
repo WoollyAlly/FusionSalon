@@ -11,8 +11,8 @@ bio: >-
   color and styles individualized to their personal needs.
 
   Patti has extensive color training with Redken Professional Hair Color and
-  stays creatively fueled by the latest trends in hair color, such as the Ombré
-  and Bayalage. Patti's focus when working with clients is to achieve a natural
+  stays creatively fueled by the latest trends in hair color, such as the ombré
+  and bayalage. Patti's focus when working with clients is to achieve a natural
   hair color that helps bring out the details in their hair style.
 prices:
 ---
