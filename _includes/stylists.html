@@ -7,93 +7,93 @@
 					   
 				
 					    
-				  {% for stylist in site.stylists %}
+				  <!--{% for stylist in site.stylists %}-->
 				  
-				  {% assign rowfinder = forloop.index | modulo: 3 %}
+				  <!--{% assign rowfinder = forloop.index | modulo: 3 %}-->
 				  
 				  
-				   {% if rowfinder == 1 %}
-                      <div class="row">
-                    {% endif %}
-						<div class="col-md-4 text-center to-animate {% if forloop.index == 4 %}col-md-offset-2{% endif %}">
-							<div class="person">
-							    <a data-toggle="modal" data-target="#aboutModal{{forloop.index}}"> 
-							        <img src="{{ stylist.profile_image_path }}" class="img-responsive img-rounded" alt="Hair Stylist" />
-							    </a>
+				  <!-- {% if rowfinder == 1 %}-->
+      <!--                <div class="row">-->
+      <!--              {% endif %}-->
+						<!--<div class="col-md-4 text-center to-animate {% if forloop.index == 4 %}col-md-offset-2{% endif %}">-->
+						<!--	<div class="person">-->
+						<!--	    <a data-toggle="modal" data-target="#aboutModal{{forloop.index}}"> -->
+						<!--	        <img src="{{ stylist.profile_image_path }}" class="img-responsive img-rounded" alt="Hair Stylist" />-->
+						<!--	    </a>-->
 								
-								<h3 class="name">{{ stylist.name }}</h3>
+						<!--		<h3 class="name">{{ stylist.name }}</h3>-->
 								<!--<div class="position">Web Developer</div>-->
-								<p> {{ stylist.mini-bio }} </p>
-								<a data-toggle="modal" data-target="#aboutModal{{forloop.index}}"> Learn More </a>
-								<div>
-    								<a href="cloudcannon:collections/_stylists/{{stylist.name | | downcase}}.md" class = "editor-link">Edit {{stylist.name}}</a>
-								</div>
+						<!--		<p> {{ stylist.mini-bio }} </p>-->
+						<!--		<a data-toggle="modal" data-target="#aboutModal{{forloop.index}}"> Learn More </a>-->
+						<!--		<div>-->
+    		<!--						<a href="cloudcannon:collections/_stylists/{{stylist.name | | downcase}}.md" class = "editor-link">Edit {{stylist.name}}</a>-->
+						<!--		</div>-->
 							
                                 
-							</div>
-						</div>
+						<!--	</div>-->
+						<!--</div>-->
 						
-				   {% if rowfinder == 0 || forloop.last %}
-                      </div>
-                    {% endif %}
+				  <!-- {% if rowfinder == 0 || forloop.last %}-->
+      <!--                </div>-->
+      <!--              {% endif %}-->
 						
                         <!-- Modal -->
-                        <div class="modal fade" id="aboutModal{{forloop.index}}" tabindex="-1" role="dialog" aria-labelledby="{{ stylist.name }}">
-                          <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                                <h1 class="modal-title" id="{{ stylist.name }}">{{ stylist.name }}</h1>
-                              </div>
-                              <div class="modal-body">
+      <!--                  <div class="modal fade" id="aboutModal{{forloop.index}}" tabindex="-1" role="dialog" aria-labelledby="{{ stylist.name }}">-->
+      <!--                    <div class="modal-dialog modal-lg" role="document">-->
+      <!--                      <div class="modal-content">-->
+      <!--                        <div class="modal-header">-->
+      <!--                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>-->
+      <!--                          <h1 class="modal-title" id="{{ stylist.name }}">{{ stylist.name }}</h1>-->
+      <!--                        </div>-->
+      <!--                        <div class="modal-body">-->
                                 
-                                <div class="row">
-                                    <div class="col-md-6">
+      <!--                          <div class="row">-->
+      <!--                              <div class="col-md-6">-->
 								
 								
-                					    <h2>Contact Information</h2>
-                    					{% if stylist.phone %}
-                                          <p>Phone: {{stylist.phone}}</p>
-                                        {% endif %}
-                    					{% if stylist.email %}
-                                          <p>Email: {{stylist.email}}</p>
-                                        {% endif %}
+      <!--          					    <h2>Contact Information</h2>-->
+      <!--              					{% if stylist.phone %}-->
+      <!--                                    <p>Phone: {{stylist.phone}}</p>-->
+      <!--                                  {% endif %}-->
+      <!--              					{% if stylist.email %}-->
+      <!--                                    <p>Email: {{stylist.email}}</p>-->
+      <!--                                  {% endif %}-->
                                         
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img src="{{ stylist.profile_image_path }}" class="img-responsive img-rounded" alt="Hair Stylist" />
-                                    </div>
-                                </div>
+      <!--                              </div>-->
+      <!--                              <div class="col-md-6">-->
+      <!--                                  <img src="{{ stylist.profile_image_path }}" class="img-responsive img-rounded" alt="Hair Stylist" />-->
+      <!--                              </div>-->
+      <!--                          </div>-->
                     
-                                <h2> Bio </h2>
-								<p> {{ stylist.bio }} </p>
+      <!--                          <h2> Bio </h2>-->
+						<!--		<p> {{ stylist.bio }} </p>-->
 								
-                                <h2> Price List </h2>
-                                {% if stylist.prices %}
-                                    <ul>
-                                        {% for price in stylist.prices %}
-                                        {% assign firstLetter = price | split: '' | first %}
-                                        {{words}}
-                                            {% if firstLetter == "-" %}
-                                                <h4> {{price}}</h4>
-                                            {% else %}
-                                                <li> {{ price }} </li>
-                                            {% endif %}
+      <!--                          <h2> Price List </h2>-->
+      <!--                          {% if stylist.prices %}-->
+      <!--                              <ul>-->
+      <!--                                  {% for price in stylist.prices %}-->
+      <!--                                  {% assign firstLetter = price | split: '' | first %}-->
+      <!--                                  {{words}}-->
+      <!--                                      {% if firstLetter == "-" %}-->
+      <!--                                          <h4> {{price}}</h4>-->
+      <!--                                      {% else %}-->
+      <!--                                          <li> {{ price }} </li>-->
+      <!--                                      {% endif %}-->
                                         
             								
-                                        {% endfor %}
+      <!--                                  {% endfor %}-->
                                         
-                                    </ul>
-                                {% else %}
-                                    <p> Please contact for prices </p>
-                                {% endif %}
+      <!--                              </ul>-->
+      <!--                          {% else %}-->
+      <!--                              <p> Please contact for prices </p>-->
+      <!--                          {% endif %}-->
                                               
                                 
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                  {% endfor %}
+      <!--                        </div>-->
+      <!--                      </div>-->
+      <!--                    </div>-->
+      <!--                  </div>-->
+      <!--            {% endfor %}-->
 			</div>
 		</div>
 	</div>
