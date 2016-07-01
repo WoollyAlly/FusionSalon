@@ -15,10 +15,8 @@ social:
   #facebook-official: https://facebook.com/<username>
   #google-plus-square: https://plus.google.com/u/0/+<username>
 collections:
-  stylists:
-    output: false
-  testimonials:
-    output: false
+- stylists:
+- testimonials:
 
 defaults:
   -
