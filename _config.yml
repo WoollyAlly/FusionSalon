@@ -16,7 +16,7 @@ social:
   #google-plus-square: https://plus.google.com/u/0/+<username>
 collections:
   stylists:
-    output: true
+    output: false
 
 defaults:
   -
