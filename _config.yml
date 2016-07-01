@@ -18,13 +18,13 @@ collections:
 - stylists:
 - testimonials:
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "stylists"
-    values:
-      layout: "stylist"
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#       type: "stylists"
+#     values:
+#       layout: "stylist"
 
 # Build settings
 markdown: kramdown
