@@ -1,5 +1,5 @@
 ---
-name: Stephe
+name: Stephen
 ---
 
 
