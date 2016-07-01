@@ -17,6 +17,8 @@ social:
 collections:
   stylists:
     output: false
+  testimonials:
+    output: false
 
 defaults:
   -
