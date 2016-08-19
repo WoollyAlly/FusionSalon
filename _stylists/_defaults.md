@@ -5,9 +5,9 @@ email:
 profile_image_path:
 
 
-mini-bio: Products are crafted in-house by hand, making each piece a labour of love and an exercise in craftsmanship.
+mini-bio: Please enter your mini bio. This is what will be displayed on the home screen before clicking learn more.
 
-bio:  Products are crafted in-house by hand, making each piece a labour of love and an exercise in craftsmanship.
+bio:  Please enter your full bio. This is what will be displayed after clicking learn more.
 
 prices:
     - Price 1 $15
