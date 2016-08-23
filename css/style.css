@@ -336,6 +336,11 @@ address{
     float:left;
 }
 
+
+#footer a{
+    color:white;
+}
+
 #map{
     height:230px;
     margin-top: 10px;
