@@ -197,10 +197,10 @@
 
 		if ( $('#about-us').length > 0 ) {
 			$('#about-us').waypoint( function( direction ) {
-				console.log("DIRECTION", direction)		
+				console.log("DIRECTION", direction, Date.now())		
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
 
-				    console.log("Not Animated")		
+				    console.log("Not Animated", Date.now())		
 
 					setTimeout(aboutAnimate, 200);
 
