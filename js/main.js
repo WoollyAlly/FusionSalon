@@ -184,7 +184,10 @@
 			$('#about-us .to-animate').each(function( k ) {
 				
 				var el = $(this);
+				
+				setTimeout ( function () {
 					el.addClass('fadeInUp animated');
+				},  k * 200, 'easeInOutExpo' );
 				
 			});
 		}
