@@ -197,7 +197,7 @@
 
 		if ( $('#about-us').length > 0 ) {
 			$('#about-us').waypoint( function( direction ) {
-										
+				console.log("DIRECTION", direction)		
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
 
 
