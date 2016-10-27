@@ -202,7 +202,7 @@
 					$(this.element).addClass('animated');
 						
 				}
-			} , { offset: '90%' } );
+			} , { offset: '85%' } );
 		}
 
 	};
@@ -236,7 +236,7 @@
 					$(this.element).addClass('animated');
 						
 				}
-			} , { offset: '90%' } );
+			} , { offset: '85%' } );
 		}
 
 	};
@@ -266,7 +266,7 @@
 					$(this.element).addClass('animated');
 						
 				}
-			} , { offset: '90%' } );
+			} , { offset: '85%' } );
 		}
 
 	};
@@ -309,7 +309,7 @@
 					$(this.element).addClass('animated');
 						
 				}
-			} , { offset: '90%' } );
+			} , { offset: '85%' } );
 		}
 
 	};
@@ -340,7 +340,7 @@
 					$(this.element).addClass('animated');
 						
 			
-			} , { offset: '90%' } );
+			} , { offset: '85%' } );
 		}
 
 	};
@@ -376,7 +376,7 @@
 					$(this.element).addClass('animated');
 						
 			
-			} , { offset: '90%' } );
+			} , { offset: '85%' } );
 		}
 
 	};
@@ -412,7 +412,7 @@
 					$(this.element).addClass('animated');
 						
 			
-			} , { offset: '90%' } );
+			} , { offset: '85%' } );
 		}
 
 	};
