@@ -200,6 +200,7 @@
 				console.log("DIRECTION", direction)		
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
 
+				    console.log("Not Animated")		
 
 					setTimeout(aboutAnimate, 200);
 
