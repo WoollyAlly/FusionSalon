@@ -185,9 +185,7 @@
 				
 				var el = $(this);
 				
-				setTimeout ( function () {
-					el.addClass('fadeInUp animated');
-				},  k * 200, 'easeInOutExpo' );
+				el.addClass('fadeInUp animated');
 				
 			});
 		}
