@@ -197,7 +197,7 @@
 			$('#about-us').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
-
+                    aboutAnimate();
 					setTimeout(aboutAnimate, 200);
 					
 					$(this.element).addClass('animated');
