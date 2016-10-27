@@ -187,6 +187,8 @@
 				
 				setTimeout ( function () {
 					el.addClass('fadeInUp animated');
+					
+					alert("test");
 				},  k * 200, 'easeInOutExpo' );
 				
 			});
