@@ -185,10 +185,10 @@
 				
 				var el = $(this);
 				
+					alert("test");
 				setTimeout ( function () {
 					el.addClass('fadeInUp animated');
 					
-					alert("test");
 				},  k * 200, 'easeInOutExpo' );
 				
 			});
