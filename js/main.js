@@ -335,8 +335,7 @@
 			$('#fh5co-testimonials').waypoint( function( direction ) {
 										
 				
-					setTimeout(testimonialsAnimate, 200);
-					
+					testimonialsAnimate();
 					
 					$(this.element).addClass('animated');
 						
