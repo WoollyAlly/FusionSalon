@@ -202,8 +202,7 @@
 
 				    console.log("Not Animated", Date.now())		
 
-					setTimeout(aboutAnimate, 200);
-
+                    aboutAnimate();
 					
 					$(this.element).addClass('animated');
 						
