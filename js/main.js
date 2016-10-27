@@ -180,7 +180,6 @@
 	// About Us
 	var aboutAnimate = function() {
 
-					alert("test");
 		if ( $('#about-us').length > 0 ) {	
 			$('#about-us .to-animate').each(function( k ) {
 				
