@@ -196,13 +196,13 @@
 	};
 	var aboutWayPoint = function() {
 
-					alert("test");
 		if ( $('#about-us').length > 0 ) {
 			$('#about-us').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
 
 
+					alert("test");
 					setTimeout(aboutAnimate, 200);
 
 					
