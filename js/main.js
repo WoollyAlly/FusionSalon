@@ -230,7 +230,7 @@
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
 
 
-					setTimeout(teamAnimate, 200);
+					teamAnimate();
 
 					
 					$(this.element).addClass('animated');
@@ -262,10 +262,7 @@
 										
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
 
-
-					setTimeout(servicesAnimate, 200);
-
-					
+					servicesAnimate();
 					$(this.element).addClass('animated');
 						
 				}
