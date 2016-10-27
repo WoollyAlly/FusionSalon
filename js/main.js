@@ -203,7 +203,7 @@
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
 
 
-					setTimeout(aboutAnimate, 200);
+					aboutAnimate();
 
 					
 					$(this.element).addClass('animated');
