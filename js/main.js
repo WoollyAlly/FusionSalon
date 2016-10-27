@@ -441,7 +441,7 @@
 
 	// Document on load.
 	$(function(){
-
+        console.log("test");
 		burgerMenu();
 		owlCrouselFeatureSlide();
 		clickMenu();
