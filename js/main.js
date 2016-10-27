@@ -202,7 +202,6 @@
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
 
 
-					alert("test");
 					setTimeout(aboutAnimate, 200);
 
 					
