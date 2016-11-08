@@ -6,9 +6,9 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://www.fusionsalonge.com/</loc>
+  <loc>https://www.fusionsalonge.com/</loc>
 </url>
 <url>
-  <loc>http://www.fusionsalonge.com/index.html</loc>
+  <loc>https://www.fusionsalonge.com/index.html</loc>
 </url>
 </urlset>
