@@ -1,3 +1,9 @@
+//= require jquery.min.js
+//= require jquery.easing.1.3.js
+//= require bootstrap.min.js
+//= require jquery.waypoints.min.js
+//= require owl.carousel.min.js
+
 ;(function () {
 	
 	'use strict';

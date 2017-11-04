@@ -19,18 +19,12 @@
 						<div class="col-md-4 col-xs-12 text-center to-animate {% if rowfinder == 1 %}col-md-offset-2{% endif %}">
 							<div class="person">
 							    <a data-toggle="modal" data-target="#aboutModal{{forloop.index}}"> 
-							        <img src="{{ stylist.profile_image_path }}" class="img-responsive img-rounded" alt="{{ stylist.name }} - Hair Stylist" />
+                                    {% img '{{ stylist.profile_image_path }}' class:"img-responsive img-rounded" alt:"{{ stylist.name }} - Hair Stylist"%}
 							    </a>
 								
 								<h3 class="name">{{ stylist.name }}</h3>
-								<!--<div class="position">Web Developer</div>-->
 								<p> {{ stylist.mini-bio }} </p>
 								<a data-toggle="modal" data-target="#aboutModal{{forloop.index}}"> Learn More </a>
-								<div>
-    								<a href="cloudcannon:collections/_stylists/{{stylist.name | | downcase}}.md" class = "editor-link">Edit {{stylist.name}}</a>
-								</div>
-							
-                                
 							</div>
 						</div>
 				  <!--{% assign rowfinder = forloop.index | modulo: 3 %}-->
@@ -86,7 +80,7 @@
                                         
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="{{ stylist.profile_image_path }}" class="img-responsive img-rounded" alt="{{ stylist.name }} - Hair Stylist" />
+                                        {% img '{{ stylist.profile_image_path }}' class:"img-responsive img-rounded" alt:"{{ stylist.name }} - Hair Stylist"%}
                                     </div>
                                 </div>
                     

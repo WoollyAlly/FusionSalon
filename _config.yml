@@ -31,3 +31,9 @@ markdown: kramdown
 
 plugins:
   - jekyll-assets
+
+assets:
+  compress:
+    js:   uglifier
+  features:
+    automatic_img_size: false
