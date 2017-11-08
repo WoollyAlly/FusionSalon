@@ -1,5 +1,5 @@
 ---
-name: Tet=st
+name: This is a test
 phone: '213'
 email: qwe
 mini-bio: qweqweqweqweqwe
