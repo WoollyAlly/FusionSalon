@@ -57,7 +57,8 @@ layout: default
             title: 'Fusion Salon!'
           });
       }
-    </script>
+	</script>
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKjiLzzU1cC5YBYeN_cas6k1JPRqMcxmA&callback=initMap"
     async defer></script>
 	{% javascript main %}
@@ -80,7 +81,16 @@ layout: default
 	</script>
 	
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.js"></script>
-	
-
+	<script>
+		if (window.netlifyIdentity) {
+			window.netlifyIdentity.on("init", user => {
+			if (!user) {
+				window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+				});
+			}
+			});
+		}
+	</script>
 	</body>
 </html>
